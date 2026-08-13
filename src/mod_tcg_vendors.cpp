@@ -2610,7 +2610,7 @@ public:
                 "VALUES ({}, 9311, 0, {}, 0, 1, 0, 1, 1, 'TCG code scroll — mod-tcg-vendors')",
                 bossEntry, dropRate);
             LOG_INFO("module",
-                "mod-tcg-vendors: Registered stationery drop ({}% chance) for boss entry {}.", bossEntry, dropRate);
+                "mod-tcg-vendors: Registered stationery drop ({}% chance) for boss entry {}.", dropRate, bossEntry);
         }
 
         LoadLootTemplates_Creature();
